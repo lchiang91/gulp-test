@@ -10,7 +10,7 @@ var minhtml = require("gulp-htmlmin"),
 gulp.task('html',function(){
   return gulp.src('./src/*.html')
   .pipe(minhtml({collapseWhitespace: true}))
-  .pipe(gulp.dest('./dist'))
+  .pipe(gulp.dest('./disc'))
 
 })
 gulp.task('css',function(){
